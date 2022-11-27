@@ -1,0 +1,97 @@
+@import url(composant/card.css);
+@import url(composant/abonnement.css);
+@import url(composant/projet.css);
+@import url(composant/button.css);
+@import url(composant/animationfin.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px grey;
+    background-color: #fce4de;
+}
+
+.navbar:hover {
+    background-color: #ffc2c7;
+}
+
+.class1 {
+    justify-content: left;
+    top: 0px;
+}
+
+.class2 {
+    justify-content: right;
+    
+}
+
+ul {
+    font-size: 27px;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-right: 10px;
+    gap: 40px;
+}
+
+
+.po:hover{
+    font-size: 32px;
+    color: #ba4b2f
+}
+
+h2 {
+    margin-top: 0%;
+    font-size: 58px;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 105px;
+    width: 120px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around ;
+}
+
+
+@media screen and (max-width : 800px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+        nav {
+            flex-direction: column;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    
+        ul {
+            flex-direction: column;
+            text-align: center;
+            display: flex;
+            margin-top: 40px;
+            }
+        
+        .navbar {
+            flex-direction: column;
+            text-align: center;
+    
+        }
+    }

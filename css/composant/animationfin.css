@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+.tourne {
+    margin-left: 400px;
+    animation: tourne 3s linear infinite;
+    display: block;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width : 800px) {
+    h1{
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .tourne {
+        height: 150px;
+        width: 150px;
+        margin-left: 160px;
+    }
+}

@@ -1,0 +1,132 @@
+.lumiere{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5DDD0;
+    border-radius: 30px;
+    height: 550px;
+    width: 500px;
+    margin-left: 375px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.lu {
+    margin-left: 52px;
+}
+
+.lumi{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.prolum {
+    text-align: center;
+}
+
+.lizzo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin-top: 20px;
+    margin-left: 275px;
+    background-color: #F3C98B;
+    border-radius: 30px;
+    align-items: center;
+    height: 900px;
+    width: 750px
+}
+
+.lizzo:hover {
+    background-color:#EEB810;
+    border: solid #CA920B ;
+    transition: background-color 1s;;
+}
+
+.lili {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.imgli {
+    margin-top: 190px;
+    margin-left: 25px;
+}
+
+.archi {
+    background-color: #FCE4DE;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width : 800px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .lizzo {
+       flex-direction: column;
+        text-align: center; 
+        width: 350px;
+        align-items: flex-end;
+        display: inline-block;
+        margin-left: 10px
+        
+    }
+
+    .lili {
+        font-size: 14px;
+    }
+
+    .imgli{
+        margin-top: 0px;
+        height: 120px;
+        width: 120px;
+    }
+
+    .button b1 {
+        margin-right: 10px;
+    }
+
+    .archi {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .lumiere {
+        flex-direction: column;
+        text-align: center; 
+        width: 350px;
+        height:350px;
+        align-items: flex-end;
+        display: inline-block;
+        margin-left: 10px
+    }     
+    .lu {
+        width: 175px;
+        height: 100px;
+    }   
+
+    .archi{
+        width: 400px ;
+        height: 200px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .scene {
+        height: 150px;
+        width: 220px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    h4{
+        font-size: 10px;
+        margin-left: 100px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}
+    
